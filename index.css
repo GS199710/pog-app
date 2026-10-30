@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { margin: 0; height: 100%; background: #0E1712; }
+body { -webkit-text-size-adjust: 100%; overscroll-behavior: none; }

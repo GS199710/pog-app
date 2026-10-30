@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- このページが読み込めるのは自分のサイトのスクリプトだけ。通信先は自分のサイトとGitHub APIだけ(トークンの流出を防ぐ)。 -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#0E1712">
+  <title>POG候補馬管理</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./app.css?v=__BUILD__">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./app.js?v=__BUILD__"></script>
+</body>
+</html>
